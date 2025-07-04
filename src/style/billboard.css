@@ -1,0 +1,63 @@
+.billboard-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.billboard-wrapper {
+    width: 100% ;
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background-color: #1A1A1A;
+    padding: 30px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+}
+
+.billboard-wrapper span {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Syne Semi Bold', sans-serif;
+}
+
+.billboard-wrapper b {
+    font-size: 3.7rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Syne Bold', sans-serif;
+    line-height: 100%;
+}
+
+.billboard-wrapper p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'Syne Medium', sans-serif;
+}
+
+.billboard-wrapper a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Syne Medium', sans-serif;
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    gap: 20px;
+    padding: 20px 40px;
+    border-radius: 30px;
+    background: linear-gradient(266deg, #0147FF 1.54%, rgba(1, 71, 255, 0.00) 121.37%);
+}
+
+.billboard-wrapper .gear-icon {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+}

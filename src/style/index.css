@@ -1,0 +1,54 @@
+body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body {
+  background-color: #000;
+}
+
+.App {
+  max-width: 900px;
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: 'Syne';
+  src: url('../fonts/syne/Syne.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Syne Bold';
+  src: url('../fonts/syne/Syne-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Syne Extra Bold';
+  src: url('../fonts/syne/Syne-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Syne Medium';
+  src: url('../fonts/syne/Syne-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Syne Regular';
+  src: url('../fonts/syne/Syne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Syne Semi Bold';
+  src: url('../fonts/syne/Syne-SemiBold.ttf') format('truetype');
+}

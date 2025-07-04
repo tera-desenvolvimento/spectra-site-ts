@@ -1,0 +1,32 @@
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    gap: 10px;
+    margin-top: -100px;
+    padding-bottom: 30px;
+}
+
+.about-us-container b {
+    font-family: 'Syne Semi Bold', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.about-us-container span {
+    font-family: 'Syne Regular', sans-serif;
+    line-height: 1.5;
+}
+
+.about-us-container a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Syne Regular', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 90px;
+    align-self: flex-end;
+}

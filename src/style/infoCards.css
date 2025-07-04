@@ -1,0 +1,124 @@
+.info-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.info-cards-container .separator {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-big {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #0147FF;
+    border-radius: 30px;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.card-big b {
+    font-family: 'Syne Bold', sans-serif;
+    font-size: 2em;
+}
+
+.card-big .card-content {
+    display: flex;
+    gap: 30px;
+}
+
+.card-big .card-content span {
+    font-family: 'Syne Regular', sans-serif;
+    font-size: 1em;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.card-big .card-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.card-big .card-images img {
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-big .card-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.card-big .card-footer a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Syne Regular', sans-serif;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.card-small {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #0147FF;
+    border-radius: 30px;
+    padding: 30px;
+    width: 100%;
+    color: white;
+}
+
+.card-small.white {
+    background-color: white;
+    color: #000000;
+}
+
+.card-small b {
+    font-family: 'Syne Bold', sans-serif;
+    font-size: 1.6em;
+}
+
+.card-small span{
+    font-family: 'Syne Regular', sans-serif;
+    font-size: 1em;
+    margin: 0;
+}
+
+.card-small .card-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.card-small .card-footer a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Syne Regular', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.card-small.white .card-footer a {
+    color: #000000;
+    border: 1px solid #000000;
+}
