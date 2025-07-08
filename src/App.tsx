@@ -6,6 +6,7 @@ import Customers from './components/Customers';
 import InfoCards from './components/InfoCards';
 import Solutions from './components/Solutions';
 import AboutUs from './components/AboutUs';
+import Faq from './components/Faq';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <InfoCards />
       <Solutions />
       <AboutUs />
+      <Faq />
     </div>
   );
 }

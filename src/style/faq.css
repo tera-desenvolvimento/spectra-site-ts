@@ -1,0 +1,74 @@
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.faq-container .title {
+    font-family: 'Syne Semi Bold', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.faq-container .faq-grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.faq-container .faq-grid-wrapper .faq-card {
+    background-color: #1A1A1A;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 230px;
+    justify-content: space-between;
+}
+
+.faq-container .faq-grid-wrapper .faq-card div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faq-container .faq-grid-wrapper .faq-card .horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.faq-container .faq-grid-wrapper .faq-card .horizontal b, .faq-container .faq-grid-wrapper .faq-card .horizontal span{
+    flex: 1;
+}
+
+.faq-container .faq-grid-wrapper .faq-card b {
+    font-family: 'Syne Semi Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.faq-container .faq-grid-wrapper .faq-card span {
+    font-family: 'Syne Regular', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.5;
+    z-index: 2;
+}
+
+.faq-container .faq-grid-wrapper .faq-card .number-img {
+    height: 100px;
+    margin-bottom: -20px;
+    margin-top: -80px;
+    z-index: 1;
+}
+
+.faq-container .faq-grid-wrapper .faq-card .number-img.left {
+    align-self: flex-start;
+}
+
+.faq-container .faq-grid-wrapper .faq-card .number-img.right {
+    align-self: self-end;
+}
