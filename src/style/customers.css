@@ -37,9 +37,9 @@
     to {
       transform: translateX(-100%);
     }
-  }
+}
   
-  .slider {
+.slider {
     overflow: hidden;
     background: black;
     white-space: nowrap;
@@ -47,28 +47,27 @@
     display: flex;
     flex-direction: row;
     width: -webkit-fill-available;
-  }
+}
   
-  .slider:before,
-  .slider:after {
+.slider:before, .slider:after {
     position: absolute;
     top: 0;
     width: 150px;
     height: 100%;
     content: "";
     z-index: 2;
-  }
+}
   
-  .slider:before {
+.slider:before {
     left: 0;
     background: linear-gradient(to left, rgba(255, 255, 255, 0), black);
-  }
+}
   
-  .slider:after {
+.slider:after {
     right: 0;
     background: linear-gradient(to right, rgba(255, 255, 255, 0), black);
-  }
+}
   
-  .slider-track {
+.slider-track {
     animation: 10s slide infinite linear;
-  }
+}

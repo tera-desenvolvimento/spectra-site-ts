@@ -7,6 +7,7 @@ import InfoCards from './components/InfoCards';
 import Solutions from './components/Solutions';
 import AboutUs from './components/AboutUs';
 import Faq from './components/Faq';
+import Testimonial from './components/Testimonial';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Solutions />
       <AboutUs />
       <Faq />
+      <Testimonial />
     </div>
   );
 }

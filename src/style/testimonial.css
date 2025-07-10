@@ -1,0 +1,107 @@
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.testimonial-container .section-title {
+    font-family: 'Syne Regular', sans-serif;
+    color: #ffffff;
+    font-size: 2.1rem;
+    margin-bottom: 50px;
+}
+
+.testimonial-container .cases-list-container .cases-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.testimonial-container .cases-list-container .cases-list .case-item {
+    width: 300px;
+    font-family: 'Syne Regular', sans-serif;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+    gap: 20px;
+}
+
+.testimonial-container .cases-list-container .cases-list .case-item .case-description {
+    font-size: 12px;
+}
+
+.testimonial-container .cases-list-container .cases-list .case-item.blue {
+    background-color: #0147FF;
+}
+
+.testimonial-container .cases-list-container .cases-list .case-item.gray {
+    background-color: #1A1A1A;
+}
+
+.testimonial-container .cases-list-container .cases-list .case-item.white {
+    background-color: #DEDEE0;
+    color: #1C1A1A;
+}
+
+.testimonial-container .cases-list-container .cases-list .case-item .case-person {
+    display: flex;
+    gap: 10px;
+}
+
+.testimonial-container .cases-list-container .cases-list .case-item .case-person img {
+    height: 30px;
+    border-radius: 50%;
+}
+
+.testimonial-container .cases-list-container .cases-list .case-item .case-person .person-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-container .cases-list-container .cases-list .case-item .case-person .person-info {
+    font-size: 12px;
+}
+
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+}
+  
+.slider-t {
+    overflow: hidden;
+    background: black;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: -webkit-fill-available;
+}
+
+.slider-t:before, .slider-t:after {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+  
+.cases-list-container:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), black);
+}
+  
+.cases-list-container:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), black);
+}
+  
+.slider-track-test {
+    animation: 40s slide infinite linear;
+}
