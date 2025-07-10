@@ -8,6 +8,7 @@ import Solutions from './components/Solutions';
 import AboutUs from './components/AboutUs';
 import Faq from './components/Faq';
 import Testimonial from './components/Testimonial';
+import ContactUs from './components/ContactUs';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <AboutUs />
       <Faq />
       <Testimonial />
+      <ContactUs />
     </div>
   );
 }

@@ -16,7 +16,7 @@ import React from 'react';
 function Solutions() {
     return (
         <React.Fragment>
-            <b className='main-title'>Soluções em Marketing</b>
+            <b className='solutions-title'>Soluções em Marketing</b>
 
             <div className="solutions-container">
                 <div className="solutions-grid-container">
