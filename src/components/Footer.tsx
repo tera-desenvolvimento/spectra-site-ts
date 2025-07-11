@@ -25,12 +25,12 @@ function Footer() {
                                 </a>
                             </li>
                             <li className="menu-item">
-                                <a href="#solutions" target="_blank" rel="noopener noreferrer">
+                                <a href="#solutions" rel="noopener noreferrer">
                                     Soluções
                                 </a>
                             </li>
                             <li className="menu-item">
-                                <a href="#about" target="_blank" rel="noopener noreferrer">
+                                <a href="#about" rel="noopener noreferrer">
                                     Quem somos
                                 </a>
                             </li>
@@ -81,7 +81,7 @@ function Footer() {
                             <a href="#" className="social-link">
                                 <img src={linkedinIcon} className="social-icon" />
                             </a>
-                            <a href="https://www.instagram.com/spectrabr/" className="social-link">
+                            <a href="https://www.instagram.com/spectrabr/" target="_blank" className="social-link">
                                 <img src={instaIcon} className="social-icon" />
                             </a>
                             <a href="#" className="social-link">
