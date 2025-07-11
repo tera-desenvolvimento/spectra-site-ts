@@ -17,16 +17,16 @@ function Header() {
                     <a href="#about">Quem somos</a>
                 </li>
                 <li className="menu-item">
-                    <a href="#portfolio">Portfólio</a>
+                    <a href="#solutions">Portfólio</a>
                 </li>
                 <li className="menu-item">
-                    <a href="#instagram">Instagram</a>
+                    <a href="https://www.instagram.com/spectrabr/" target='_blank'>Instagram</a>
                 </li>
                 <li className="menu-item">
-                    <a href="#services">Serviços</a>
+                    <a href="#solutions">Serviços</a>
                 </li>
                 <li className="menu-item">
-                    <a href="#contact">Contato</a>
+                    <a href="https://wa.me/+558233115350" target='_blank'>Contato</a>
                 </li>
             </ul>
         </nav>
