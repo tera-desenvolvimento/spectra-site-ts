@@ -128,3 +128,60 @@
     align-self: flex-start;
     margin-top: -250px;
 }
+
+.solutions-title-mob {
+    font-family: 'Syne Semi Bold', sans-serif;
+    font-size: 1.6em;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.solutions-carousel {
+    color: #ffffff;
+    font-family: 'Syne Regular', sans-serif;
+    font-size: 1.1em;
+}
+
+.solutions-carousel .solution-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.solutions-carousel .solution-item .card-img {
+    border-radius: 20px;
+    border: 0.5px solid #FFF;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(3.34px);
+    width: fit-content;
+    padding: 10px;
+}
+
+.bottom-container-mob {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-container-mob a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Syne Medium', sans-serif;
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-self: center;
+    gap: 20px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background: linear-gradient(266deg, #0147FF 1.54%, rgba(1, 71, 255, 0.00) 121.37%);
+}
+
+.main-logo-mob {
+    width: 90vw;
+    align-self: center;
+    margin-top: -430px;
+    margin-bottom: 30px;
+}

@@ -59,12 +59,12 @@
 }
   
 .slider:before {
-    left: 0;
+    left: -3px;
     background: linear-gradient(to left, rgba(255, 255, 255, 0), black);
 }
   
 .slider:after {
-    right: 0;
+    right: -3px;
     background: linear-gradient(to right, rgba(255, 255, 255, 0), black);
 }
   

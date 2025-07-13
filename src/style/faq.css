@@ -72,3 +72,18 @@
 .faq-container .faq-grid-wrapper .faq-card .number-img.right {
     align-self: self-end;
 }
+
+@media (max-width: 768px) {
+    .faq-container {
+        padding: 10px;
+    }
+
+    .faq-container .title {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .faq-container .faq-grid-wrapper {
+        grid-template-columns: 1fr;
+    }
+}

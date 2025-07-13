@@ -122,3 +122,9 @@
     color: #000000;
     border: 1px solid #000000;
 }
+
+@media (max-width: 768px) {
+    .info-cards-container {
+        flex-direction: column;
+    }
+}

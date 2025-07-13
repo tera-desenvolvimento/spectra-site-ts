@@ -61,3 +61,56 @@
     right: 5px;
     bottom: 0px;
 }
+
+/* Billboard Mobile */
+
+.billboard-container-mob {
+    font-family: 'Syne', sans-serif;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.billboard-container-mob .billboard-wrapper-mob {
+    background-color: #1A1A1A;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.billboard-container-mob b {
+    font-size: 1.6rem;
+}
+
+.billboard-container-mob ul {
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.billboard-container-mob ul li {
+    font-size: 1rem;
+}
+
+.billboard-wrapper-mob p {
+    margin-bottom: 20px;
+}
+
+.billboard-wrapper-mob a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Syne Medium', sans-serif;
+    width: 100%;
+    justify-content: center;
+    font-size: .9rem;
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    background: linear-gradient(266deg, #0147FF 1.54%, rgba(1, 71, 255, 0.00) 121.37%);
+}
+
+.billboard-wrapper-mob .gear-icon {
+    width: 100px;
+    position: absolute;
+    top: 170px;
+    right: 30px;
+}

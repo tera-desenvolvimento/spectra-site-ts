@@ -30,3 +30,24 @@
     padding: 10px 90px;
     align-self: flex-end;
 }
+
+@media (max-width: 768px) {
+    .about-us-container {
+        padding: 20px;
+        margin-top: unset;
+    }
+
+    .about-us-container b {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .about-us-container span {
+        line-height: normal;
+    }
+
+    .about-us-container a {
+        padding: 10px 40px;
+        align-self: center;
+    }
+}

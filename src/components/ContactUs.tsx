@@ -10,17 +10,17 @@ function ContactUs() {
     return (
         <div className="contact-container">
             <div className="main-wrapper">
-                <span className="main-title">E aí? Vai <br />perder tempo?</span>
+                <span className="main-title">E aí? Vai perder tempo?</span>
 
                 <div className="separator">
-                    <span>Entre em contato <br /> e fale com o nosso time!</span>
+                    <span>Entre em contato e fale com o nosso time!</span>
                     <a href="#" target="_blank" rel="noopener noreferrer">Enviar mensagem</a>
                 </div>
             </div>
             <img src={asteriskImg} className="asterisk-bg" />
             <div className="contact-wrapper">
                 <div className="left-wrapper">
-                    <b>Estamos aqui para conectar e <br /> ajudar você!</b>
+                    <b>Estamos aqui para conectar e ajudar você!</b>
                     <span>Tem dúvidas sobre contato? Precisa de ajuda com alguma dúvida específica? Nossa equipe está pronta para ajudar.</span>
 
                     <div className="aligner">
