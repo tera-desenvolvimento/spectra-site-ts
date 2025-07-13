@@ -14,7 +14,7 @@ function ContactUs() {
 
                 <div className="separator">
                     <span>Entre em contato e fale com o nosso time!</span>
-                    <a href="#" target="_blank" rel="noopener noreferrer">Enviar mensagem</a>
+                    <a href="https://wa.me/+558233115350" target="_blank" rel="noopener noreferrer">Enviar mensagem</a>
                 </div>
             </div>
             <img src={asteriskImg} className="asterisk-bg" />
@@ -39,7 +39,7 @@ function ContactUs() {
                         <a href="#" className="social-link">
                             <img src={fbIcon} className="social-icon" />
                         </a>
-                        <a href="#" className="social-link">
+                        <a href="https://www.instagram.com/spectrabr/" className="social-link">
                             <img src={linkedinIcon} className="social-icon" />
                         </a>
                         <a href="#" className="social-link">
