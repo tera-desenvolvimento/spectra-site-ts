@@ -103,7 +103,7 @@
 }
   
 .slider-track-test {
-    animation: 40s slide infinite linear;
+    animation: 60s slide infinite linear;
 }
 
 @media (max-width: 768px) {
