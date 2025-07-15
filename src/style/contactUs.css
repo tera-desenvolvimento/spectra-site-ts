@@ -48,6 +48,10 @@
     background: linear-gradient(266deg, #0147FF 1.54%, rgba(1, 71, 255, 0.00) 121.37%);
 }
 
+.contact-container .main-wrapper .separator a:hover {
+    background: linear-gradient(266deg, rgba(1, 71, 255, 0.00) 1.54%, #0147FF 121.37%);
+}
+
 .contact-container .asterisk-bg {
     width: 300px;
     margin-top: -100px;
@@ -138,6 +142,10 @@
     border-radius: 30px;
     background: linear-gradient(45deg, #0147FF 1.54%, rgba(1, 71, 255, 0.00) 121.37%);
     transition: ease-in-out 1s;
+}
+
+.contact-container .contact-wrapper .form-wrapper .form-element button:hover {
+    background: linear-gradient(45deg, rgba(1, 71, 255, 0.00) 1.54%, #0147FF 121.37%);
 }
 
 @media (max-width: 768px) {

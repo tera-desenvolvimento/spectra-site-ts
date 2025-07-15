@@ -73,6 +73,10 @@
     padding: 10px 30px;
 }
 
+.card-big .card-footer a:hover {
+    background-color: #0440da;
+}
+
 .card-small {
     display: flex;
     flex-direction: column;
@@ -118,9 +122,17 @@
     padding: 10px 30px;
 }
 
+.card-small .card-footer a:hover {
+    background-color: #0440da;
+}
+
 .card-small.white .card-footer a {
     color: #000000;
     border: 1px solid #000000;
+}
+
+.card-small.white .card-footer a:hover {
+    background-color: #d6d6d6;
 }
 
 @media (max-width: 768px) {

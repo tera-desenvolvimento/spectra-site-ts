@@ -31,6 +31,12 @@
     align-self: flex-end;
 }
 
+.about-us-container a:hover {
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
 @media (max-width: 768px) {
     .about-us-container {
         padding: 20px;

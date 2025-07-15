@@ -121,6 +121,10 @@
     border-radius: 30px;
     background: linear-gradient(266deg, #0147FF 1.54%, rgba(1, 71, 255, 0.00) 121.37%);
 }
+
+.solutions-container .bottom-container a:hover {
+    background: linear-gradient(266deg, rgba(1, 71, 255, 0.00) 1.54%, #0147FF 121.37%);
+}
     
 .main-logo {
     width: 500px;

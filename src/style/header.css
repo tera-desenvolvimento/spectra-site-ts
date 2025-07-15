@@ -33,6 +33,11 @@
     padding: 8px 20px;
     background: linear-gradient(90deg, #132659 0%, #0246F8 100.01%);
     border-radius: 20px;
+    transition: ease-in-out 2s;
+}
+
+.menu-item.home a:hover {
+    background: linear-gradient(180deg, #132659 0%, #0246F8 100.01%);
 }
 
 .menu-item a {
