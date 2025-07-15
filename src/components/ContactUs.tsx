@@ -14,7 +14,7 @@ function ContactUs() {
 
                 <div className="separator">
                     <span>Entre em contato e fale com o nosso time!</span>
-                    <a href="https://wa.me/+558233115350" target="_blank" rel="noopener noreferrer">Enviar mensagem</a>
+                    <a href="https://wa.me/+558291185298" target="_blank" rel="noopener noreferrer">Enviar mensagem</a>
                 </div>
             </div>
             <img src={asteriskImg} className="asterisk-bg" />
@@ -26,27 +26,22 @@ function ContactUs() {
                     <div className="aligner">
                         <div>
                             <b>CONTATO</b>
-                            <span>82 99118-5298</span>
+                            <a href="tel:+558291185298">
+                                <span>82 99118-5298</span>
+                            </a>
                         </div>
                         <div>
                             <b>EMAIL</b>
-                            <span>contato@spectra.tec.br</span>
+                            <a href="mailto:contato@spectra.tec.br">
+                                <span>contato@spectra.tec.br</span>
+                            </a>
                         </div>
                     </div>
 
                     <b>Siga a Spectra</b>
                     <div className="social-wrapper">
-                        <a href="#" className="social-link">
-                            <img src={fbIcon} className="social-icon" />
-                        </a>
                         <a href="https://www.instagram.com/spectrabr/" className="social-link">
-                            <img src={linkedinIcon} className="social-icon" />
-                        </a>
-                        <a href="#" className="social-link">
                             <img src={instaIcon} className="social-icon" />
-                        </a>
-                        <a href="#" className="social-link">
-                            <img src={ytIcon} className="social-icon" />
                         </a>
                     </div>
                 </div>

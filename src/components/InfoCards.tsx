@@ -21,7 +21,7 @@ function InfoCards() {
                         <img src={asteriskImg} className='asterisk' />
                     </div>
                     <div className="card-footer">
-                        <a href="https://wa.me/+558233115350" target='_blank'>Clique aqui para conferir <img src={arrowImg} className='arrow' /></a>
+                        <a href="https://wa.me/+558291185298" target='_blank'>Clique aqui para conferir <img src={arrowImg} className='arrow' /></a>
                     </div>
                 </div>
             </div>
@@ -30,14 +30,14 @@ function InfoCards() {
                     <b>Já conhece o <br />Contrato Online?</b>
                     <span>Automatize suas vendas com nosso Contrato Online. Permita assinaturas a qualquer hora e simplifique a gestão com integração ao ERP.</span>
                     <div className="card-footer">
-                        <a href="https://wa.me/+558233115350" target='_blank'>Clique aqui para conferir <img src={arrowImg} className='arrow' /></a>
+                        <a href="https://wa.me/+558291185298" target='_blank'>Clique aqui para conferir <img src={arrowImg} className='arrow' /></a>
                     </div>
                 </div>
                 <div className="card-small white">
                     <b>Tenha um Assistente de IA</b>
                     <span>Revolucione sua comunicação integrando o WhatsApp às suas operações. Agende, rastreie e gerencie interações diretamente no app, mantendo o atendimento ágil e centralizado.</span>
                     <div className="card-footer">
-                        <a href="https://wa.me/+558233115350" target='_blank'>Clique aqui para conferir <img src={arrowBlackImg} className='arrow' /></a>
+                        <a href="https://wa.me/+558291185298" target='_blank'>Clique aqui para conferir <img src={arrowBlackImg} className='arrow' /></a>
                     </div>
                 </div>
             </div>

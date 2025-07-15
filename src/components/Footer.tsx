@@ -35,29 +35,29 @@ function Footer() {
                                 </a>
                             </li>
                             <li className="menu-item">
-                                <a href="https://wa.me/+558233115350" target="_blank" rel="noopener noreferrer">
+                                <a href="https://wa.me/+558291185298" target="_blank" rel="noopener noreferrer">
                                     Contato
                                 </a>
                             </li>
                         </ul>
                         <ul className="menu-list">
                             <li className="menu-item">
-                                <a href="https://wa.me/+558233115350" target="_blank" rel="noopener noreferrer">
+                                <a href="https://wa.me/+558291185298" target="_blank" rel="noopener noreferrer">
                                     Consultoria em Gestão Inteligente
                                 </a>
                             </li>
                             <li className="menu-item">
-                                <a href="https://wa.me/+558233115350" target="_blank" rel="noopener noreferrer">
+                                <a href="https://wa.me/+558291185298" target="_blank" rel="noopener noreferrer">
                                     Contrato Online
                                 </a>
                             </li>
                             <li className="menu-item">
-                                <a href="https://wa.me/+558233115350" target="_blank" rel="noopener noreferrer">
+                                <a href="https://wa.me/+558291185298" target="_blank" rel="noopener noreferrer">
                                     ZapKey
                                 </a>
                             </li>
                             <li className="menu-item">
-                                <a href="https://wa.me/+558233115350" target="_blank" rel="noopener noreferrer">
+                                <a href="https://wa.me/+558291185298" target="_blank" rel="noopener noreferrer">
                                     Assistentes de IA
                                 </a>
                             </li>
@@ -75,17 +75,8 @@ function Footer() {
                     <div className="social-media">
                         <span>NOSSAS REDES SOCIAIS</span>
                         <div className="social-wrapper">
-                            <a href="#" className="social-link">
-                                <img src={fbIcon} className="social-icon" />
-                            </a>
-                            <a href="#" className="social-link">
-                                <img src={linkedinIcon} className="social-icon" />
-                            </a>
                             <a href="https://www.instagram.com/spectrabr/" target="_blank" className="social-link">
                                 <img src={instaIcon} className="social-icon" />
-                            </a>
-                            <a href="#" className="social-link">
-                                <img src={ytIcon} className="social-icon" />
                             </a>
                         </div>
                     </div>

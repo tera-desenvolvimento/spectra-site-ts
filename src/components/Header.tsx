@@ -36,7 +36,7 @@ function Header() {
                             <a href="#solutions">Serviços</a>
                         </li>
                         <li className="menu-item">
-                            <a href="https://wa.me/+558233115350" target='_blank'>Contato</a>
+                            <a href="https://wa.me/+558291185298" target='_blank'>Contato</a>
                         </li>
                     </ul>
                 </nav>
@@ -75,7 +75,7 @@ function Header() {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="https://wa.me/+558233115350" target='_blank' className="nav-link">
+                            <a href="https://wa.me/+558291185298" target='_blank' className="nav-link">
                                 Contato
                             </a>
                         </li>

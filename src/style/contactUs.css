@@ -76,7 +76,9 @@
     padding-bottom: 20px;
 }
 
-.contact-container .contact-wrapper .left-wrapper span {
+.contact-container .contact-wrapper .left-wrapper a, .contact-container .contact-wrapper .left-wrapper span {
+    text-decoration: none;
+    color: #ffffff;
     font-family: 'Syne Regular', sans-serif;
     font-size: 15px;
     padding-bottom: 50px;
