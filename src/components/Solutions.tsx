@@ -55,7 +55,7 @@ function Solutions() {
                     </div>
 
                     <div className="bottom-container">
-                        <a href="https://wa.me/+558291185298" target='_blank'>Confira nosso portfólio melhor <img src={arrowImg} className='arrow' /></a>
+                        <a href="https://www.instagram.com/spectrabr/" target='_blank'>Confira nosso portfólio melhor <img src={arrowImg} className='arrow' /></a>
                     </div>
                 </div>
                 <img src={mainLogo} className='main-logo' />
@@ -98,7 +98,7 @@ function Solutions() {
                 </div>
 
                  <div className="bottom-container-mob">
-                    <a href="https://wa.me/+558291185298" target='_blank'>Confira nosso portfólio melhor <img src={arrowImg} className='arrow' /></a>
+                    <a href="https://www.instagram.com/spectrabr/" target='_blank'>Confira nosso portfólio melhor <img src={arrowImg} className='arrow' /></a>
                 </div>
 
                 <img src={mainLogo} className='main-logo-mob' />

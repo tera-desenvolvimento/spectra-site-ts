@@ -40,7 +40,7 @@ function ContactUs() {
 
                     <b>Siga a Spectra</b>
                     <div className="social-wrapper">
-                        <a href="https://www.instagram.com/spectrabr/" className="social-link">
+                        <a href="https://www.instagram.com/spectrabr/" target="_blank" className="social-link">
                             <img src={instaIcon} className="social-icon" />
                         </a>
                     </div>

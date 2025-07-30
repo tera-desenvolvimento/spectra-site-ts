@@ -17,12 +17,14 @@ function AboutUs() {
 let buttonEl = document.getElementById('button-el') as HTMLButtonElement;
 let buttonImage = document.getElementById('arrow-img') as HTMLImageElement;
 
-buttonEl.addEventListener('mouseenter', () => {
-    buttonImage.src = arrowBlk;
-})
+if (buttonEl) {
+    buttonEl.addEventListener('mouseenter', () => {
+        buttonImage.src = arrowBlk;
+    })
 
-buttonEl.addEventListener('mouseleave', () => {
-    buttonImage.src = arrowImg;
-})
+    buttonEl.addEventListener('mouseleave', () => {
+        buttonImage.src = arrowImg;
+    })
+}
 
 export default AboutUs;
